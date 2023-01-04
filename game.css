@@ -2,8 +2,8 @@
     box-sizing: border-box;
     font-family: Gotham Rounded;
   }
-  
-  :root {
+                                     /* used a hue trick to make the code a little easier to manage */ 
+  :root {                                       
     --hue-neutral: 200;
     --hue-wrong: 0;
     --hue-correct: 145;
@@ -54,7 +54,7 @@
     color: white;
     outline: none;
   }
-  
+                                                                        /* This is for my buttons and used my hue variables  */ 
   .btn:hover {
     border-color: white;
   }
